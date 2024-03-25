@@ -1,0 +1,1 @@
+This is a visitor's management system that ensures effective management of Visitor's information in an organization. Visitors can book appointments and they are then served effectively in various departments
