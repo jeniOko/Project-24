@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Send email</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    </head>
+    <body>
+        <H1>SEND EMAIL</H1>
+        <form method="post" action="sendmail.php">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" ><br>
+            
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" ><br>
+
+            <label for="name" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject"  ><br>
+
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" required></textarea>
+            <br>
+            <button name="submit">SEND</button>
+    
+        </form>
+    </body>
+</html>
